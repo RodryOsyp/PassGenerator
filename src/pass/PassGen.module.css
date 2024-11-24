@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all {
+    background-color: #100F15;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    background-color: #24232b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    color: #888;
+}
+
+.password {
+    font-size: 1.5em;
+    background-color: #3a3a3a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.strength {
+    margin: 10px 0;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.ButContainer{
+    display: flex;
+    background-color: #A4FFAF;
+    color: #11191B;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ButContainer:hover{
+    cursor: pointer;
+}
+.generateBut{
+    font-weight: 700;
+}
+
+
+.copy:hover{
+    cursor: pointer;
+}
+.back1{
+    display: flex;
+
+    border: 2px solid white;
+    width: 10px;
+    height: 25px;
+}
+.back1{
+    border: 2px solid white;
+    box-sizing: border-box;
+    width: 7px;
+    height: 20px;
+}
+.difficulty{
+    display: flex;
+    gap: 5px;
+}
+.difficultyText{
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
